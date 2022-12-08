@@ -1432,7 +1432,7 @@ header .language ul li a.active {
   color: var(--color-orange);
   font-weight: 600;
   font-size: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem !important;
   font-style: italic;
 }
 
@@ -1538,14 +1538,14 @@ header .language ul li a.active {
 .services-page,
 .doctors-page,
 .blogs-page {
-  padding: 7rem 9rem;
+  padding: 9rem 9rem;
 }
 
 @media screen and (max-width: 1440px) {
   .services-page,
   .doctors-page,
   .blogs-page {
-    padding: 7rem 6rem;
+    padding: 9rem 6rem;
   }
 }
 
@@ -1553,7 +1553,7 @@ header .language ul li a.active {
   .services-page,
   .doctors-page,
   .blogs-page {
-    padding: 7rem 4rem;
+    padding: 9rem 4rem;
   }
 }
 
@@ -1790,6 +1790,10 @@ header .language ul li a.active {
   .doctors-page .title .text p {
     font-size: 1rem;
   }
+}
+
+.doctors-page .title h3 {
+  margin-bottom: 2rem;
 }
 
 .doctors-page .card {
