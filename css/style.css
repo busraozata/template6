@@ -2220,6 +2220,7 @@ header .language ul li a.active {
 @media screen and (max-width: 991px) {
   .doctor-detail .content .area {
     padding-left: 0rem;
+    padding-top: 3rem;
   }
 }
 
