@@ -284,10 +284,10 @@ $xxl-breakpoint: 1400px; //Extra extra large
         opacity: 0.5;
         z-index: 99999999999999999999999999999999999999999;
         animation: crescendo 1.5s alternate infinite ease-in;
-        @media screen and (max-width:$xl-breakpoint) {
+        @media screen and (max-width: $xl-breakpoint) {
             background-size: 40%;
         }
-        @media screen and (max-width:$sm-breakpoint) {
+        @media screen and (max-width: $sm-breakpoint) {
             background-size: 45%;
         }
     }
@@ -1352,8 +1352,8 @@ header {
 .doctors-page {
     .title {
         @include title();
-        h3{
-            margin-bottom: 2rem
+        h3 {
+            margin-bottom: 2rem;
         }
     }
     .card {
@@ -1498,6 +1498,22 @@ header {
         }
     }
 }
+.doctor-detail {
+    .content {
+        .area {
+            padding-left: 3rem;
+            @media screen and (max-width: $lg-breakpoint) {
+                padding-left: 0rem;
+            }
+            .text {
+                p {
+                    text-align: left !important;
+                }
+            }
+        }
+    }
+}
+
 .map-area {
     padding: 4rem 11rem 3rem 11rem;
     @media screen and (max-width: 1440px) {

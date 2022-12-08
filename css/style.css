@@ -2213,6 +2213,20 @@ header .language ul li a.active {
   border-radius: 0;
 }
 
+.doctor-detail .content .area {
+  padding-left: 3rem;
+}
+
+@media screen and (max-width: 991px) {
+  .doctor-detail .content .area {
+    padding-left: 0rem;
+  }
+}
+
+.doctor-detail .content .area .text p {
+  text-align: left !important;
+}
+
 .map-area {
   padding: 4rem 11rem 3rem 11rem;
 }
