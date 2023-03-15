@@ -26,7 +26,7 @@ $("#preloader")
   });
 
 var swiper = new Swiper(".mySwiper", {
- /*  autoplay: {
+  /*  autoplay: {
     delay: 2500,
     disableOnInteraction: false,
   }, */
@@ -188,7 +188,7 @@ var swiperTest = new Swiper(".mySwiperList", {
     el: ".swiper-pagination",
     clickable: true,
   },
-/*   autoplay: {
+  /*   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
   }, */
